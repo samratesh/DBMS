@@ -83,7 +83,7 @@
             <% try {
                 String url = "jdbc:mysql://localhost:3306/aashiyana";
                 Class.forName("com.mysql.jdbc.Driver");
-                Connection con = DriverManager.getConnection(url, "root", "password");
+                Connection con = DriverManager.getConnection(url, "root", ",yG5(b)r#qgb");
                 Statement stmt = con.createStatement();
                 ResultSet rs = stmt.executeQuery("SELECT * FROM CATEGORY");
             %>

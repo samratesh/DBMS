@@ -80,7 +80,7 @@
                 String username = (String) request.getAttribute("User_Name");
                 String url = "jdbc:mysql://localhost:3306/aashiyana";
                 Class.forName("com.mysql.jdbc.Driver");
-                Connection con = DriverManager.getConnection(url, "root", "password");
+                Connection con = DriverManager.getConnection(url, "root", ",yG5(b)r#qgb");
                 PreparedStatement stmt = con.prepareStatement("SELECT USER_ID FROM USERS WHERE USERNAME = ?;");
                 stmt.setString(1, username);
                 ResultSet rs4 = stmt.executeQuery();
